@@ -1,0 +1,128 @@
+@import '../../theme.scss';
+
+.carousel {
+    max-width: 1100px !important;
+    width: 100% !important;
+}
+
+
+
+.thumb {
+    width: 160px !important;
+    height: 80px !important;
+}
+
+.thumbs .selected {
+    border: 12px solid #57EBA1 !important;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-arrow {
+    width: 88px !important;
+    height: 88px !important;
+    background: $white !important;
+    margin: 0 !important;
+    border: 1px solid #555770;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+    border-radius: 2px;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.carousel .control-prev.control-arrow:before {
+    border: none !important;
+    opacity: 1 !important;
+}
+
+.carousel .control-next.control-arrow:before {
+    border: none !important;
+    opacity: 1 !important;
+
+}
+
+.carousel-status {
+    display: none !important;
+}
+
+.control-prev::before {
+    content: '\1F860' !important;
+    font-size: 40px !important;
+    color: $green;
+    border: none;
+}
+
+.control-next::before {
+    content: '\1F862' !important;
+    font-size: 40px !important;
+    color: $green;
+    border: none;
+}
+
+@media (max-width:1250px) {
+    .carousel {
+        max-width: 900px !important;
+        width: 100% !important;
+    }
+
+    .control-arrow {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .control-prev::before {
+        content: '\1F860' !important;
+        font-size: 20px !important;
+        color: $green;
+        border: none;
+    }
+    
+    .control-next::before {
+        content: '\1F862' !important;
+        font-size: 20px !important;
+        color: $green;
+        border: none;
+    }
+    
+}
+
+@media (max-width:1020px) {
+    .carousel {
+        max-width: 700px !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:730px) {
+    .carousel {
+        max-width: 500px !important;
+        width: 100% !important;
+    }
+
+    .thumb {
+        width: 140px !important;
+        height: 60px !important;
+    }
+}
+@media (max-width:530px) {
+    .carousel {
+        max-width: 300px !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:300px) {
+    .carousel {
+        max-width: 260px !important;
+        width: 100% !important;
+    }
+}

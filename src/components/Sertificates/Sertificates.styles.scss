@@ -1,0 +1,141 @@
+@import '../../theme.scss';
+
+.adaptive-swiper .swiper {
+    position: static;
+}
+ 
+.sertificates .adaptive-swiper{
+    position: static;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 88px !important;
+    height: 88px !important;
+    border: 1px solid #555770;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+    border-radius: 2px;
+    background: $white;
+    z-index: 1;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: $green;
+}
+
+.sertificates .swiper-button-next:after,
+.sertificates .swiper-button-prev:after {
+    color: $green;
+}
+
+.sertificates .swiper-button-prev:after {
+    content: '\1F860';
+    font-size: 40px;
+}
+
+.sertificates .swiper-button-next:after {
+    content: '\1F862';
+    font-size: 40px;
+}
+
+@media (max-width:1260px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 300px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 300px;
+    }
+}
+
+@media (max-width:1160px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 250px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 250px;
+    }
+}
+
+@media (max-width:1065px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 200px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 200px;
+    }
+}
+
+@media (max-width:960px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 150px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 150px;
+    }
+}
+
+@media (max-width:860px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 100px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 100px;
+    }
+}
+
+@media (max-width:760px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 50px;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 50px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 2%;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 2%;
+    }
+}
+
+@media (max-width:560px) {
+
+    .adaptive-swiper .swiper-button-next {
+        right: 2%;
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .adaptive-swiper .swiper-button-prev {
+        left: 2%;
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .adaptive-swiper .swiper-button-next,
+    .adaptive-swiper .swiper-button-prev {
+        top: 94%;
+        width: 50% !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}

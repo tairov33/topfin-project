@@ -1,0 +1,84 @@
+@import '../../font.scss';
+@import '../../theme.scss';
+
+.sertificate-adaptive__swiper-slide {
+    display: none;
+}
+
+.sertificate {
+    position: relative;
+
+
+    &__container {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        font-family: $rubik;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+    }
+
+    &__swiper {
+
+        &-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:1260px) {
+    .sertificate {
+
+        &__swiper-slide {
+            display: none;
+        }
+
+        &-adaptive__swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+@media (max-width:560px) {
+    .sertificate {
+
+        &-adaptive__swiper-slide {
+
+            & img {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .sertificate {
+        &__title {
+            font-size: 30px;
+            line-height: 150%;
+        }
+    }
+}
+
+@media (max-width:330px) {
+    .sertificate {
+
+
+
+        &-adaptive__swiper-slide {
+
+            & img {
+                width: 250px;
+            }
+        }
+    }
+}

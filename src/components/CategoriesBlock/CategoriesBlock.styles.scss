@@ -1,0 +1,71 @@
+@import '../../theme.scss';
+
+
+.categories .swiper-button-next,
+.categories .swiper-button-prev {
+    width: 50% !important;
+    height: 92px !important;
+    z-index: 1 !important;
+    box-shadow: none !important;
+    border: 1px solid #555770;
+    border-radius: 2px;
+    background: $white;
+    position: absolute;
+    bottom: 0 !important;
+    margin: 0px !important;
+    border: none !important;
+    background: $light-white !important;
+    top: auto !important;
+
+}
+
+.categories .swiper-button-next {
+    right: 0 !important;
+}
+
+.categories .swiper-button-prev {
+    left: 0 !important;
+}
+
+.categories .swiper-button:hover,
+.categories .swiper-button:focus {
+    background: #FAFAFC !important;
+}
+
+.categories .swiper-button-disabled {
+    background: $light-white !important;
+}
+
+.categories .swiper-button-prev {
+    right: 80px;
+}
+
+.categories .swiper-button-next:after,
+.categories .swiper-button-prev:after {
+    color: $green;
+}
+
+.categories .swiper-button-prev:after {
+    content: '\1F860';
+    font-size: 40px;
+}
+
+.categories .swiper-button-next:after {
+    content: '\1F862';
+    font-size: 40px;
+}
+
+
+
+@media (max-width:300px) {
+
+    .categories .swiper-button-next:after,
+    .categories .swiper-button-prev:after {
+        font-size: 30px;
+    }
+
+    .categories .swiper-button-next,
+    .categories .swiper-button-prev {
+        height: 70px !important;
+    }
+}

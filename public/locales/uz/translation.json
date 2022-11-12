@@ -1,0 +1,87 @@
+{
+    "header": {
+        "text": "Akkreditatsiyalangan mahsulotni sertifikatlash markazi",
+        "about": "Kompaniya haqida",
+        "services": "Xizmatlar",
+        "gallery": "Galereya",
+        "contacts": "Kontaktlar"
+    },
+    "more": {
+        "more": "Ko'proq"
+    },
+    "category": {
+        "connect": "Biz bilan bog'lanish",
+        "order": "Murojaat qiling"
+    },
+    "about": {
+        "title": "Kompaniya haqida",
+        "text": "“TOPFIN RESULT” MChJ qoshida akkreditatsiyalangan mahsulotni sertifikatlash markazi 2014 yilda tashkil etilgan. O'zbekiston Respublikasi hududida sotiladigan elektr, yoritish uskunalari, qurilish, metall va polimer mahsulotlarini sertifikatlashtirishni amalga oshiradi.",
+        "adaptive-text":"Аккредитованный центр по сертификации продукции при ООО 'TOPFIN RESULT' создан в 2014 году. Осуществляет сертификацию электротехнического, светового оборудования, строительных, металлических и полимерных изделий, реализуемых на территории Республики Узбекистан. В Комплексе Испытательной Лаборатории проводятсяфизико-химические, спектрометрические, механические, физико-механические, электротехнические, светотехнические методы анализа в области полимеров, светотехники и электротехники, связанные с качеством продукции, экономией электроэнергии и техникой безопасности, на соответствие требованиям нормативной документации.",
+        "more": "Ko'proq",
+        "wecan": "Bizda bor",
+        "experience": "yillik tajriba",
+        "staff": "tajribali hodimlar",
+        "download-info": "Sifat, xolislik va maxfiylik sohasidagi Sinov laboratoriyalari majmuasining umumiy siyosati.",
+        "download-button": ".pdf yuklab olish",
+        "paragraph-first": "“TOPFIN RESULT” MChJ qoshida akkreditatsiyalangan mahsulotni sertifikatlash markazi 2014 yilda tashkil etilgan. O'zbekiston Respublikasi hududida sotiladigan elektr, yoritish uskunalari, qurilish, metall va polimer mahsulotlarini sertifikatlashtirishni amalga oshiradi.",
+        "paragraph-second": "Integratsiyalashgan sinov laboratoriyasining o‘ziga xosligi shundaki, laboratoriyamiz tez va ishonchli tarzda elektr, yoritish, konstruksiya, metall va polimer mahsulotlarni sinovdan o‘tkazish uskunalari hamda sinov uskunalari bilan jihozlangan. Integratsiyalashgan sinov laboratoriyasida tuproq miqdori va zichligini aniqlash uchun asboblar ham mavjud. Mamlakatda shunga o'xshash qurilmalar yo'q.",
+        "paragraph-third": "Elektr, polimer, qurilish va metall buyumlar sinov laboratoriyasi majmuasi 2014-yilda “O‘zstandart” agentligi tomonidan akkreditatsiyadan o‘tgan. Sinov bazasi va akkreditatsiya sohasi Laboratoriya sinov sohasida keng imkoniyatlarga ega.",
+        "paragraph-four": "Sinov laboratoriyasi majmuasi polimerlar, yorug‘lik va elektrotexnika sohasida mahsulot sifati, energiyani tejash va xavfsizlik bilan bog‘liq bo‘lgan fizik-kimyoviy, spektrometrik, mexanik, fizik-mexanik, elektr, yorug‘lik tahlil usullarini o‘tkazadi. me'yoriy hujjatlar talablari.",
+        "paragraph-five": "Sinov laboratoriyasi majmuasi sinovlarning to'g'riligi, taqdim etilgan natijalarning xolisligi, ishonchliligi va maxfiyligi, sinovlarni o'tkazish muddatlari, shuningdek lavozim yo'riqnomalarida belgilangan tegishli funktsiyalar va majburiyatlarning bajarilishi uchun javobgardir.",
+        "paragraph-six": "Sinov laboratoriyasi majmuasining o'ziga xosligi shundaki, u bizning laboratoriyamizda lyuminestsent, LED va cho'g'lanma lampalar, lampalar va boshqalar kabi yoritish moslamalarining yoritish parametrlarini tez va ishonchli aniqlash imkonini beruvchi o'lchov asboblari va sinov uskunalari mavjud. yoritish uskunalari. Shuningdek, sinov laboratoriyasi majmuasida barcha polimerlarning miqdoriy va sifat tarkibini aniqlash imkonini beruvchi qurilma mavjud. O‘zbekiston Respublikasi hududida bunday qurilmalar mavjud emas.",
+        "paragraph-seven": "Kelgusi rejalarda sertifikatlashtirish markazi ILAC – (ILAC – International Laboratory Accreditation Cooperation – International Organization for Laboratory Accreditation – International Organization for Laboratory Accreditation) akkreditatsiyalangan xalqaro laboratoriyalar tarkibiga kirishni rejalashtirmoqda. ILAC tomonidan tan olingandan so'ng, Akkreditatsiyalangan sinov laboratoriyasi tomonidan chiqarilgan protokollar Evropa va MDHda amal qiladi."
+    },
+    "services": {
+        "title": "Taqdim etilgan xizmatlar",
+        "orderService": "Buyurtma xizmati",
+        "more": "Ko'proq",
+        "extraServices": "Qo'shimcha xizmatlar",
+        "extraServices-info": "Tashkilotimiz sizga kafolat va qisqa vaqt ichida sertifikat va ruxsatnomalarni olishda yordam beradi:"
+    },
+    "orderService": {
+        "title": "Xizmatga buyurtma bermoqchimisiz?",
+        "text": "So'rov qoldiring va biz tez orada siz bilan bog'lanamiz",
+        "name": "Ismingiz",
+        "tel": "Telefon raqamingiz",
+        "submitApplication": "Arizangizni yuboring",
+        "cancel": "Bekor qilish"
+    },
+    "sponsors": {
+        "partners": "Hamkorlar"
+    },
+    "gallery": {
+        "gallery": "Galereya"
+    },
+    "contactUs": {
+        "contactUs": "Biz bilan bog'lanish",
+        "name": "Ismingiz",
+        "tel": "Telefon raqamingiz",
+        "send": "Jo'natish"
+    },
+    "notification": {
+        "title": "Xabaringiz muvaffaqiyatli yuborildi",
+        "text": "Mutaxassisimiz tez orada siz bilan bog'lanadi",
+        "close": "Yopish"
+    },
+    "sertificates": {
+        "sertificates": "Sertifikatlar va litsenziyalar"
+    },
+    "complaints": {
+        "complaints": "Savollaringiz bormi yoki shikoyat qilmoqchimisiz?",
+        "name": "Ismingiz",
+        "tel": "Telefon raqamingiz",
+        "comment": "Izoh",
+        "theme": "Konvertatsiya mavzusi",
+        "send-text": "So'rov qoldiring va biz imkon qadar tezroq siz bilan bog'lanamiz.",
+        "send": "Jo'natish"
+    },
+    "footer": {
+        "title": "Akkreditatsiyalangan mahsulotni sertifikatlash markazi",
+        "contacts": "Kontaktlar",
+        "social-medias": "Ijtimoiy tarmoqlar",
+        "mainOffice": "Bosh ofis",
+        "mainOffice-location": "O'zbekiston Respublikasi Toshkent shahri. 100069 Shayxontoxur rayoni Kichik halqa yo'li ko'chasi,2",
+        "subsidiary": "Sho'ba korxona",
+        "subsidiary-location": "O'zbekiston Respublikasi Toshkent shahri. Yashnobod rayoni, Elbek ko'chasi, 61"
+    }
+}

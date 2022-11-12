@@ -1,0 +1,66 @@
+@import '../../font.scss';
+@import '../../theme.scss';
+
+.sponsor {
+    background-image: url(../../images/sponsorBg.png);
+    background-position: center;
+    background-size: cover;
+    display: none;
+
+
+    &__container {
+        padding-top: 56px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+
+    &__title {
+        font-family: $rubik;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+        color: $black;
+        margin-bottom: 40px;
+    }
+
+    &__swiper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__slide {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 14px;
+        justify-content: center;
+    }
+
+    &__brand {
+        width: 200px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+}
+
+@media (max-width:1300px) {
+}
+@media (max-width:550px) {
+    .sponsor{
+
+        &__container {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        &__title{
+            font-size: 30px;
+        }
+    }
+}

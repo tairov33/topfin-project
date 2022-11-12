@@ -1,0 +1,52 @@
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.active {
+    color: #05A660;
+}
+
+.dropdown-items {
+    width: max-content;
+    position: absolute;
+    transform-origin: top;
+    transform: scale(0);
+    transition: 0.3s transform;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+
+
+.isVisible {
+    transform: scaleY(1);
+}
+
+.isHidden {
+    transform: scaleY(0);
+}
+
+
+
+@media (max-width:1260px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-item {
+        margin-top: 20px;
+    }
+}

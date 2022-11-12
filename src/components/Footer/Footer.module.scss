@@ -1,0 +1,221 @@
+@import '../../font.scss';
+@import '../../theme.scss';
+
+.footer {
+    background: #f2f2f5;
+    display: flex;
+    justify-content: space-between;
+
+    &__info {
+        display: flex;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    &__logo {
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+
+            & span {
+                font-family: $inter;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #555770;
+            }
+        }
+    }
+
+    &__contacts {
+        margin-right: 70px;
+
+        &-text {
+            margin-top: 16px;
+
+            &-link {
+                text-decoration: none;
+                font-family: $inter;
+                font-weight: 500;
+                font-size: 14px;
+                color: #555770;
+                transition: 0.3s;
+
+                & span {
+                    margin-right: 6px;
+                }
+
+                &:hover {
+                    color: $green;
+                }
+            }
+        }
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+            font-family: $inter;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: $black;
+        }
+
+        &-mediaTitle {
+            display: flex;
+            flex-direction: column;
+            font-family: $inter;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: $black;
+            margin-top: 24px;
+
+            & span {
+                margin-top: 16px;
+
+                & a {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+
+
+            &-button {
+                width: 211px;
+                background: #FFFFFF;
+                padding: 12px;
+                text-align: left;
+                border: none;
+                cursor: pointer;
+                height: 144px;
+                transform-origin: top;
+                transition: 0.5s transform;
+                transition: 0.3s all;
+
+                &-active {
+                    background: linear-gradient(90deg, #05A660, #05A660) bottom left/0 2px no-repeat;
+                    background-size: 100% 2px, 100% 2px, 100%
+                }
+
+                & h2 {
+                    font-family: $inter;
+                    font-weight: 700;
+                    font-size: 16px;
+                    margin-bottom: 2px;
+                    color: $black;
+                    line-height: 22px;
+                }
+
+                & p {
+                    color: #555770;
+                    font-family: $inter;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        &-map {
+
+            &-info {
+                width: 424px;
+                height: 288px;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width:1210px) {
+    .footer {
+
+        &__location {
+            flex-direction: column;
+
+            &-info {
+                flex-direction: row;
+            }
+        }
+    }
+
+}
+
+@media (max-width:990px) {
+    .footer {
+        display: flex;
+
+        &__container {
+            justify-content: center;
+        }
+
+        &__contacts {
+            margin-bottom: 24px;
+        }
+
+        &__info {
+            flex-direction: column;
+        }
+
+        &__logo {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .footer__location-map-info {
+        width: 328px;
+    }
+
+    .footer__location-info-button {
+        width: 164px;
+        padding: 8px;
+        height: 96px;
+
+        & h2 {
+            font-family: $inter;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+        }
+
+        & p {
+            font-family: $inter;
+            font-size: 12px;
+            line-height: 14.5px;
+        }
+    }
+}
+
+@media (max-width:330px) {
+    .footer__location-map-info {
+        width: 270px;
+    }
+
+    .footer__location-info-button {
+        width: 134px;
+        padding: 8px;
+        height: 150px;
+    }
+}

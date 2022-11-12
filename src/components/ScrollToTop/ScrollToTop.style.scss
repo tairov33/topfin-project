@@ -1,0 +1,33 @@
+@import '../../theme.scss';
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: $green;
+    color: $white;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.scroll-to-top .icon {
+    margin-top: 10px;
+    animation: scrollTop 0.5s alternate ease infinite;
+}
+
+@keyframes scrollTop {
+    from {
+        transform: translateY(2px);
+    }
+
+    to {
+        transform: translateY(-1px);
+    }
+
+}

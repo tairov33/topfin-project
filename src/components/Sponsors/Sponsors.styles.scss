@@ -1,0 +1,62 @@
+@import '../../theme.scss';
+
+.sponsors .swiper {
+    position: static;
+}
+
+.sponsors .swiper-button-next,
+.sponsors .swiper-button-prev {
+    width: 54px !important;
+    height: 54px !important;
+    z-index: 1 !important;
+    border: 1px solid #555770;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+    border-radius: 2px;
+    background: $white;
+    position: absolute;
+    top: 80px;
+    right: 15px;
+}
+
+.sponsors .swiper-button-prev {
+    left: auto;
+    right: 80px;
+}
+
+.sponsors .swiper-button-next:after,
+.sponsors .swiper-button-prev:after {
+    color: $green;
+}
+
+.sponsors .swiper-button-prev,
+.sponsors .swiper-button-next{
+    transition: 0.2s all;
+}
+
+.sponsors .swiper-button-prev:hover,
+.sponsors .swiper-button-next:hover{
+    &::after{
+        color: $white;
+    }
+    background: $green;
+    border: none;
+}
+
+.sponsors .swiper-button-prev:after {
+    content: '\1F860';
+    font-size: 24px;
+}
+
+.sponsors .swiper-button-next:after {
+    content: '\1F862';
+    font-size: 24px;
+}
+
+@media (max-width:550px) {
+
+    .sponsors .swiper-button-next,
+    .sponsors .swiper-button-prev {
+        top: 48px;
+    }
+
+}
